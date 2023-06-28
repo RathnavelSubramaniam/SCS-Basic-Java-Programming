@@ -1,23 +1,25 @@
 ## Problem Statement
 
-Write a Java program to reverse a string using Recursion
+2.	Write a java program named as UseThree.java that takes three names as command-line arguments and prints a proper sentence with the names in the reverse of the order given, so that, for example, java UseThree Alice Bob Carol prints Hi Carol, Bob, and Alice.
 
 ## Algorithm
 
-1. Create a function 'reverseString' which takes following arguments:
+    Step 1: Start the program.
+	Step 2: Create a class named UseThree with a main method ().
+	Step 3: Inside the main method, do the following.
+ 			(i) Parse the strings “Alice”, “Bob”, “Carol” through the command-line arguments args[0], args[1], args[2].
+			(ii)Print the following using the output statement
+    			Hi Carol, Bob, and Alice
+	Step 4: Save the program as UseThree.java.
+	Step 5: End the program
 
-- `str` , a string - The input string.
-- an empty string
-- `startIndex`, an integer - The starting index of `str`.
-- `endIndex`, an integer - The ending index of `str`.
 
-2. Check Base Case : If the `startIndex` is greater than or equal to `endIndex`, terminates and returns the empty string as output.
+INPUT
+    ![Alt text](image-3.png)
 
-3. Recursively invoke the function `reverseString` passing following parameters :
 
-- received string as `str`
-- the empty string appended with the value in the received string at the index endindex from previous recursive call
-- `startIndex`
-- `endIndex - 1`, for moving to next character to reverse in each recursive call.
+OUTPUT
+    ![Alt text](image-2.png)
 
-4. After the termination of recursion, return the resulting string .
+ 
+

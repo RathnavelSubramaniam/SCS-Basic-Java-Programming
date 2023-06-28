@@ -1,19 +1,22 @@
 ## Problem Statement
 
-Write a Java program to find the second highest number in an array.
+1.	Write a java program that prints the Hello, World message 10 times.
 
 ## Algorithm
 
-1. Initialize two variables, one for the maximum value and one for the second highest value, with the minimum possible value of the data type used. (example: int max= Integer.MIN_VALUE, secMax = Integer.MIN_VALUE etc)
+	Step 1:  Start the program.
+	Step 2:  Create a class named HelloWorld with a main  
+            method ()
+	Step 3:  Inside the main method, repeat the following for 10 times.
+            print the word “Hello, World” using the output statement   
+   Step 4:  Save the program as HelloWorld.java.
+	Step 5:  End the program.
 
-2. Traverse the array in a loop starting at the beginning.
+INPUT:
 
-3. For each element of the array, compare it with the value stored in the maximum value variable.
-   a) if the value is greater than maximum variable , then update the sec_max by assigning the current max before update the current Maximum value variable with the current value of the element.
-   b) if the value is not greater than max, yet greater than secondMax, then update the secondMax with current value.
+No need to give the input.
 
-4. After the loop finishes, the second highest value variable passed with updated with second highest value
+OUTPUT:
+![Alt text](image.png)
+ 
 
-5. check if we know if such secMax exist in the array if yes we print that values otherwise print not found to add one more contion
-
-6. Print the value of the second highest value found in the array.
