@@ -20,7 +20,7 @@
 
 | Topic                                                                                        | Release Date | Deadline             | Link                                                                                                                     |
 | -------------------------------------------------------------------------------------------- | ------------ | -------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| 1. Write a java program that prints the Hello, World message 10 times.            |               | [Practical 1](https://classroom.github.com/a/XRyyXu1t) / [Algorithm](./practical-algorithms/algorithm-1.md)   |
+| 1. Write a java program that prints the Hello, World message 10 times.                |              |           |[Practical 1](https://classroom.github.com/a/XRyyXu1t) / [Algorithm](./practical-algorithms/algorithm-1.md)   |
 
 
 ### I CS B
