@@ -14,12 +14,13 @@
 	Step 5: End the program
 
 
-INPUT
-    ![Alt text](image-3.png)
+## Input
 
+![Alt text](image-3.png)
 
-OUTPUT
-    ![Alt text](image-2.png)
+## Output
+
+![Alt text](image-2.png)
 
  
 

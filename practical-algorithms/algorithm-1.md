@@ -12,11 +12,12 @@
    Step 4:  Save the program as HelloWorld.java.
 	Step 5:  End the program.
 
-INPUT:
+## Input
 
-No need to give the input.
+	No need to give the input.
 
-OUTPUT:
+## Output
+
 ![Alt text](image.png)
  
 

@@ -16,3 +16,10 @@
    Step 6:  Save the program as TrigonometryApproximation.java
    Step 7:  End the program.
 
+   ## Input
+      
+   ![Alt text](image-4.png)
+
+   ## Output
+   
+   ![Alt text](image-5.png)
