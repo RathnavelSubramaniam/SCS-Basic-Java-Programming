@@ -1,7 +1,7 @@
 # Basic Java Programming
 
-- [DSA Using Java](#dsa-using-java)
-  - [Announcements](#announcements)
+- [Syllabus](#dsa-using-java)
+  - [Syllabus](#announcements)
   - [Schedule](#schedule)
   - [Session - 1 Contents](#january-1)
   - [Schedule for Week 5](#week-5-schedule)
