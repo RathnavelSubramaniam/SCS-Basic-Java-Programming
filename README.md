@@ -1,6 +1,6 @@
 # Basic Java Programming
 
-- [Syllabus](#dsa-using-java)
+- [Syllabus](./Basic%20Java%20Programming%20-Syllabus%202023%20-%20Nacc%20Format.pdf)
   - [Syllabus](#announcements)
   - [Schedule](#schedule)
   - [Session - 1 Contents](#january-1)
