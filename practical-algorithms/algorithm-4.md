@@ -5,12 +5,12 @@ Write a program that takes three double command-line arguments x,y, and z and pr
 ## Algorithm
 
 	Step 1:	Start the program
-	Step 2: Create a class named BooleanEx with a main method ().
-	Step 3: Inside the main method.
-		    (i)  Parse the command-line arguments x, y, and z as double values.
-		    (ii) Evaluate the expression (x > y) && (y > z) and store the result in a boolean variable r1.
-		    (iii)Evaluate the expression (x < y) && (y< z) and store the result in a boolean variable r2.
-		    (iv) Calculate the logical OR (||) of r1 and r2 and store the result in a boolean variable result.
+	Step 2:	Create a class named BooleanEx with a main method ().
+	Step 3:	Inside the main method.
+			(i)	Parse the command-line arguments x, y, and z as double values.
+			(ii)Evaluate the expression (x > y) && (y > z) and store the result in a boolean variable r1.
+			(iii)Evaluate the expression (x < y) && (y< z) and store the result in a boolean variable r2.
+			(iv)Calculate the logical OR (||) of r1 and r2 and store the result in a boolean variable result.
 	Step 4: Print the value result.
 	Step 5: Save the program as BooleanEx.java
 	Step 6: End the program.
