@@ -18,7 +18,7 @@
 
 ### I BSc CS A 
 
-| Topic                                                                                        | Release Date | Deadline             | Link                                                                                                                             |
+| Topic                                                                                        | Release Date       | Deadline             | Link                                                                                                                                     |
 | -------------------------------------------------------------------------------------------- | ------------ | -------------------- | ------------------------------------------------------------------------------------------------------------------------         |
 | 1. Write a java program that prints the Hello, World message 10 times.                |              |           |[Practical 1](https://classroom.github.com/a/XRyyXu1t) / [Algorithm](./practical-algorithms/algorithm-1.md)         |
 | 2. Write a java program named as UseThree.java that takes three names as command-line arguments and prints a proper sentence with the names in the reverse of the order given, so that, for example, java UseThreeAlice Bob Carol prints Hi Carol, Bob, and Alice.           |              |          | [Practical 2](https://classroom.github.com/a/QqstL6mr) / [Algorithm](./practical-algorithms/algorithm-2.md)          |
