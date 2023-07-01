@@ -4,11 +4,11 @@
 
 ## Algorithm
 
-    Step 1: Start the program.
+    	Step 1: Start the program.
 	Step 2: Create a class named UseThree with a main method ().
 	Step 3: Inside the main method, do the following.
- 			(i) Parse the strings “Alice”, “Bob”, “Carol” through the command-line arguments args[0], args[1], args[2].
-			(ii)Print the following using the output statement
+ 		(i) Parse the strings “Alice”, “Bob”, “Carol” through the command-line arguments args[0], args[1], args[2].
+		(ii)Print the following using the output statement
     			Hi Carol, Bob, and Alice
 	Step 4: Save the program as UseThree.java.
 	Step 5: End the program
