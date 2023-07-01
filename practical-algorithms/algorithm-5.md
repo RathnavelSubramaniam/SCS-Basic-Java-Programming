@@ -12,11 +12,11 @@ Write a program that prints five uniform random numbers between 0 and 1, their a
 	Step 4: Repeat the following steps five times:
 			(i) Generate a random number between 0 and 1 using Math.random().	
 			(ii)Update the minimum value using Math.min() by comparing the generated random number with the current minimum value.
-			min=Math.min(r1,r2);
-			min=Math.min(min,r3);
+				min=Math.min(r1,r2);
+				min=Math.min(min,r3);
 			(iii)Update the maximum value using Math.max() by comparing the generated random number with the current maximum value.
-			max=Math.max(r1,r2);
-			max=Math.max(max,r3);
+				max=Math.max(r1,r2);
+				max=Math.max(max,r3);
 			(iv)Print the generated random number.
 	Step 5: Calculate the sum value by adding the 5 random numbers.
 				sum =r1+r2+r3+r4+r5;
