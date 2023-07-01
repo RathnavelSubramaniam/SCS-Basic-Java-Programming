@@ -3,7 +3,7 @@
 5.	Write a program that prints five uniform random numbers between 0 and 1, their average value, and their minimum and maximum values. Use Math.random(), Math.min(), and Math.max().
 # Algorithm:
 
-    Step 1: Start the program.
+    	Step 1: Start the program.
 	Step 2: Create a class named UniformRandomNumbers with a main    method ().
 	Step 3: Inside the main method
 	        (i) Declare 5 variables r1, r2, r3, r4, r5.
