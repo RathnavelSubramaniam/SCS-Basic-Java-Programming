@@ -2,16 +2,6 @@
 
 - [Syllabus](./Basic%20Java%20Programming%20-Syllabus%202023%20-%20Nacc%20Format.pdf)
   
-## Materials
-
-| Agenda                              | Tools Used            |
-| ------------------------------------| ----------------------|
-| Unit 1                              | Slides, Google Form   |
-| Unit 2                              | Slides, Google Form   |
-| Unit 3                              | Slides, VS Code       |
-| Unit 4                              | Slides                |
-| Unit 5                              | Slides                |
-
 ## Practicals
 
 **Please select the link with respect to your course and section**
