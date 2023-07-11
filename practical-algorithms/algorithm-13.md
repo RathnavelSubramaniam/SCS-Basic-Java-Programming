@@ -1,27 +1,34 @@
 ## Problem Statement
 
-Wind chill. Given the temperature t (in degrees Fahrenheit) and the wind speed v (in miles per hour), the National Weather Service defines the effective temperature (the wind chill) as follows: w = 35.74 +0.6215 T+ (0.4275*T - 35.75) *v 0.16 
-Write a program that takes two double command-line arguments temperature and velocity and prints the wind chill. Use Math.pow(a, b) to compute ab. Note: The formula is not valid if   T is larger than 50 in absolute value or if v is larger than 120 or less than 3 (you may assume that the values you get are in that range).
+Write a code fragment that reverses the order of the values in a one dimensional string array. Do not create another array to hold the result?
 
 
 ## Algorithm:
 
     Step 1:	Start the program.
-	Step 2:  Create a class named WindChill with a main method ().
-	Step 3: Inside the main method,
-		(i) Parse the command-line arguments temperature and velocity as double values representing the temperature t (in degrees Fahrenheit) and wind speed v (in miles per hour), respectively.
-		(ii) Calculate the wind chill using the formula 
- 			   w = 35.74 + 0.6215 * T + (0.4275 * T - 35.75) * v0.16 
-               and store it in a variable w.
-	Step 4: Print the wind chill value w.
-	Step 5: Save the program as WindChill.java
+	Step 2: Create a class named   ReverseArrayInPlace with a main method ().
+	Step 3: Inside the main method.
+			(i) Declare and initialize a string array with the desired values.
+			(ii) Obtain the length of the array and store it in the variable length.
+			(iii) Use a for loop to iterate over the array from index 0 to length / 2 - 1:
+			(iv) Inside the loop, perform the following steps:
+				• Create a string variable named temp and assign it the value of array [length - i - 1]. This variable will temporarily hold an element while swapping.
+				• Assign the value of array[i] to array [length - i - 1] to perform the swap.
+				• Assign the value of temp to array[i] to complete the swap.	Increment i by 1.
+			(v)  Use another for loop to iterate over the array from index 0 to length - 1:
+			(vi) Continue the loop as long as i is less than the length of the array.
+			(vii) Inside the loop, perform the following steps:
+				• Create a string variable named element and assign it the value of array[i].
+				• Print the value of element.
+	Step 4: Print the value result.
+	Step 5: Save the program as ReverseArrayInPlace.java
 	Step 6: End the program.
 
 
 ## Input
 
-![Alt text](image-15.png)
+String [] array = {"Coimbatore","RVSCAS","to","Welcome"};
 
 ## Output
 
-![Alt text](image-16.png)
+![Alt text](image-30.png)

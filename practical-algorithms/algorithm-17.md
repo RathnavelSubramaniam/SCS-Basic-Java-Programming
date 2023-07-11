@@ -1,27 +1,36 @@
 ## Problem Statement
 
-Wind chill. Given the temperature t (in degrees Fahrenheit) and the wind speed v (in miles per hour), the National Weather Service defines the effective temperature (the wind chill) as follows: w = 35.74 +0.6215 T+ (0.4275*T - 35.75) *v 0.16 
-Write a program that takes two double command-line arguments temperature and velocity and prints the wind chill. Use Math.pow(a, b) to compute ab. Note: The formula is not valid if   T is larger than 50 in absolute value or if v is larger than 120 or less than 3 (you may assume that the values you get are in that range).
+Write a static method max3() that takes three int arguments and returns the value of the largest one. Add an overloaded function that does the same thing with three double values.
 
 
 ## Algorithm:
 
     Step 1:	Start the program.
-	Step 2:  Create a class named WindChill with a main method ().
-	Step 3: Inside the main method,
-		(i) Parse the command-line arguments temperature and velocity as double values representing the temperature t (in degrees Fahrenheit) and wind speed v (in miles per hour), respectively.
-		(ii) Calculate the wind chill using the formula 
- 			   w = 35.74 + 0.6215 * T + (0.4275 * T - 35.75) * v0.16 
-               and store it in a variable w.
-	Step 4: Print the wind chill value w.
-	Step 5: Save the program as WindChill.java
-	Step 6: End the program.
+	Step 2: Create a class named MethodOverloading with a main method ().
+	Step 3: Inside the main method.
+			(i) Call the max3() method with three integer arguments. Assign the returned result to the Maxint variable. 
+				int MaxInt = max3(10,20,5);
+			(ii)Print the value of MaxInt.
+			(iii)Call the max3 method with three double arguments.Assign the returned result to the MaxDouble variable.
+		 		double MaxDouble = max3(10.5,20.6,50.50);
+			(iv)Print the value of MaxInt
+	Step 4: Declare the max3() method as static and public, which takes three integer arguments a, b, and c, and returns the maximum value among the three.
+	Step 5: Inside the max3() method, initialize a variable max with the value of a.
+			(i)  Compare b with max and update max if b is greater.
+			(ii) Compare c with max and update max if c is greater.
+			(iii)Return the value of max.
+	Step 6: Declare another max3() method as static and public, which takes three double arguments a, b, and c, and returns the maximum value among the three.
+	Step 7: Inside the max3() method, initialize a variable max with the value of a.
+	     	Repeat the same steps 5-(i), (ii) and (iii) here.
+	Step 8: Save the program as MethodOverloading.java
+	Step 9: End the program.
 
 
 ## Input
 
-![Alt text](image-15.png)
+	10 20 5
+	10.5 20.6 50.50
 
 ## Output
 
-![Alt text](image-16.png)
+![Alt text](image-37.png)
