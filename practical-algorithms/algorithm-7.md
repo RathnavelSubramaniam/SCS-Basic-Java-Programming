@@ -1,27 +1,25 @@
 ## Problem Statement
 
-Wind chill. Given the temperature t (in degrees Fahrenheit) and the wind speed v (in miles per hour), the National Weather Service defines the effective temperature (the wind chill) as follows: w = 35.74 +0.6215 T+ (0.4275*T - 35.75) *v 0.16 
-Write a program that takes two double command-line arguments temperature and velocity and prints the wind chill. Use Math.pow(a, b) to compute ab. Note: The formula is not valid if   T is larger than 50 in absolute value or if v is larger than 120 or less than 3 (you may assume that the values you get are in that range).
-
+Continuously compounded interest. Write a program that calculates and prints the amount of money you would have after t years if you invested P dollars at an annual interest rate r (compounded continuously).
+The desired value is given by the formula Pert
 
 ## Algorithm:
 
     Step 1:	Start the program.
-	Step 2: Create a class named WindChill with a main method ().
+	Step 2: Create a class named ContinuousCompoundInterest with a main method().
 	Step 3: Inside the main method,
-			(i) Parse the command-line arguments temperature and velocity as double values representing the temperature t (in degrees Fahrenheit) and wind speed v (in miles per hour), respectively.
-			(ii)Calculate the wind chill using the formula 
- 			   w = 35.74 + 0.6215 * T + (0.4275 * T - 35.75) * v0.16 
-             and store it in a variable w.
-	Step 4: Print the wind chill value w.
-	Step 5: Save the program as WindChill.java
+			(i)	Parse the command-line arguments p, r, and t as double values representing the principal amount,annual interest rate, and number of years, respectivel
+			(ii)Calculate the value of e raised to the power of r multiplied by t using the Math.exp() method and store it in a variable expResult.
+			(iii)Calculate the final amount using the formula P * expResult and store it in a variable FinalAmount.
+	Step 4: Print the value Final amount.
+	Step 5: Save the program as ContinuousCompoundInterest.java
 	Step 6: End the program.
 
 
 ## Input
 
-![Alt text](image-15.png)
+![Alt text](image-13.png)
 
 ## Output
 
-![Alt text](image-16.png)
+![Alt text](image-14.png)
