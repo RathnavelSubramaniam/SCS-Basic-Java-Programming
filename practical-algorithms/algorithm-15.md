@@ -6,7 +6,7 @@ Write a program that takes an integer command-line argument n, reads n floating-
 ## Algorithm:
 
     Step 1:	Start the program.
-	Step 2: Create a class named Standard Input with a main method ().
+	Step 2: Create a class named StandardInput with a main method ().
 	Step 3: Inside the main method.
 			(i)  Parse the first command-line argument (args[0]) as an integer n to determine the number of values to read.		
 			(ii) Create a double array a with a length of n.
